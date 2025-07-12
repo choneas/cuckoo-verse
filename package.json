@@ -15,7 +15,8 @@
     "build:aeth": "bun --cwd applications/aethericle build",
     "build:aethapp": "bunx --cwd applications/aethericle-app expo build:android",
     "build:hub": "bun --cwd applications/cuckoo-hub build",
-    "build:oj": "bun --cwd applications/cuckoo-oj build"
+    "build:oj": "bun --cwd applications/cuckoo-oj build",
+    "build:aeth:next": "bun --cwd applications/aethericle build:next"
   },
   "devDependencies": {
     "@types/bun": "latest",
