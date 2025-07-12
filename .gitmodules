@@ -1,0 +1,18 @@
+[submodule "applications/aethericle"]
+	path = applications/aethericle
+	url = https://github.com/cuckoo-verse/aethericle.git
+[submodule "applications/cuckoo-hub"]
+	path = applications/cuckoo-hub
+	url = https://github.com/cuckoo-verse/cuckoo-hub.git
+[submodule "applications/aethericle-app"]
+	path = applications/aethericle-app
+	url = https://github.com/cuckoo-verse/aethericle-app.git
+[submodule "applications/cuckoo-oj"]
+	path = applications/cuckoo-oj
+	url = https://github.com/cuckoo-verse/cuckoo-oj.git
+[submodule "packages/auth"]
+	path = packages/auth
+	url = https://github.com/cuckoo-verse/auth.git
+[submodule "packages/db"]
+	path = packages/db
+	url = https://github.com/cuckoo-verse/db.git
