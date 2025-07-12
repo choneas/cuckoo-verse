@@ -1,0 +1,48 @@
+{
+  "name": "cuckoo-verse",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "applications/*"
+  ],
+  "trustedDependencies": ["@heroui/shared-utils", "electron"],
+  "scripts": {
+    "dev:aeth": "bun --cwd applications/aethericle dev",
+    "dev:aethapp": "bunx --cwd applications/aethericle-app expo start",
+    "dev:hub": "bun --cwd applications/cuckoo-hub dev",
+    "dev:oj": "bun --cwd applications/cuckoo-oj dev",
+    "build:aeth": "bun --cwd applications/aethericle build",
+    "build:aethapp": "bunx --cwd applications/aethericle-app expo build:android",
+    "build:hub": "bun --cwd applications/cuckoo-hub build",
+    "build:oj": "bun --cwd applications/cuckoo-oj build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^15.3.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@heroui/react": "^2.8.0-beta.5",
+    "@heroui/system": "^2.4.13-beta.2",
+    "@heroui/theme": "^2.4.13-beta.2",
+    "@next/third-parties": "^15.1.6",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.6.5",
+    "lucide-react": "^0.501.0",
+    "next": "^15.3.3",
+    "next-intl": "^4.0.2",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-stately": "^3.36.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^5.0.3"
+  }
+}

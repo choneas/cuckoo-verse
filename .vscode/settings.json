@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "i18n-ally.localesPaths": [
+        "applications/aethericle/locales",
+        "applications/cuckoo-hub/locales",
+        "applications/cuckoo-oj/locales",
+        "packages/auth/client/locales"
+    ]
+}
